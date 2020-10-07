@@ -363,7 +363,7 @@ class matrix{
                            goto continu;
                        }
                        buffer = (double)new_matrix[j][k] / new_matrix[i][k];
-                        cout << new_matrix.normal_matrix_l(i,j,-buffer)<<endl;
+                        cout << new_matrix.normal_matrix_l(i,j,-buffer)<<endl<<endl;
                        
                        signal = k;
                        
