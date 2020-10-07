@@ -38,6 +38,6 @@ m=n.clone();//复制n并将m指向n的复制（新空间）
      n.autoeasify_process()//自动化简矩阵并用cout输出中间步骤左乘的初等矩阵  
      n.normal_matrix_l(line_1,line_2,mutiply)//根据n的x属性创建一个初等矩阵，line_2加上line_1乘以mutiply，用于左乘  
      fx s;//特殊数字储存格式，默认为double型，在矩阵运算中代替普通数字作为数乘运算的跟踪  
-    ```
+ ```
 * 预告：自动求梯度功能以及dfs函数  
    
