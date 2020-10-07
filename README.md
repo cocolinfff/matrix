@@ -35,6 +35,9 @@ m=n.clone();//复制n并将m指向n的复制（新空间）
 ```C++  
      n.mean()//对每个元素之和求均值并返回一个1x1的矩阵  
      n.autoeasify()//自动化简矩阵为阶梯型矩阵  
+     n.input('i',1,1,2,3,  
+                 4,5,2,1,  
+                 2,3,4,5);//赋值矩阵，'i'表示数据输入类型为int目前仅支持int和double('d')  
      n.autoeasify_process()//自动化简矩阵并用cout输出中间步骤左乘的初等矩阵  
      n.normal_matrix_l(line_1,line_2,mutiply)//根据n的x属性创建一个初等矩阵，line_2加上line_1乘以mutiply，用于左乘  
      fx s;//特殊数字储存格式，默认为double型，在矩阵运算中代替普通数字作为数乘运算的跟踪  
