@@ -1,8 +1,7 @@
 
- <img src="http://ys-c.ys168.com/564684544/j71366H3L6PG4khpeus/logo.PNG" width="200" height="200" />  
-     matrix  
+ <img src="http://ys-c.ys168.com/564684544/j71366H3L6PG4khpeus/logo.PNG" width="200" height="200" /> matrix  
 ======
-a cmatrix.h for c++  
+a matrix.h for c++  
  <1.0版本>
  --------
 重载了<<,+,-,*,[]运算符，加入了一些处理函数  
