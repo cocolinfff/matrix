@@ -1,5 +1,6 @@
 
- ![Colin](http://ys-c.ys168.com/564684544/j71366H3L6PG4khpeus/logo.PNG)
+ ![Colin](http://ys-c.ys168.com/564684544/j71366H3L6PG4khpeus/logo.PNG)  
+ <img src="http://ys-c.ys168.com/564684544/j71366H3L6PG4khpeus/logo.PNG" width="300" height="450" />  
      matrix  
 ======
 a cmatrix.h for c++  
