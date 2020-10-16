@@ -2,7 +2,7 @@
 #ifndef MATRIX
 #define MATRIX
 #include"fx_matrix.h"
-#include <stdarg.h>//平时没人用这个库吧
+#include <stdarg.h>                 //平时没人用这个库吧
 #define DELTA 0.00000001
 
 #define ADD 1
@@ -15,14 +15,14 @@
 template <class T>
 class matrix{
     private:
-          int x, y;//xy不允许随意修改以防止未知问题
+          int x, y;                            //xy不允许随意修改以防止未知问题
           
 
       public:
-          int auto_grad; //再度抄袭torch的autograd
-          T **data;      //暂时把data作为公共属性，可能不会调整
+          int auto_grad;                 //再度抄袭torch的autograd
+          T **data;                         //暂时把data作为公共属性，可能不会调整
           int root;
-          matrix *leaf[2];//可能会存在两个父节点，DFS应该可以搜索到原节点
+          matrix *leaf[2];                 //可能会存在两个父节点，DFS应该可以搜索到原节点
           int leaf_way;
           int leaf_num;
 
@@ -60,7 +60,7 @@ class matrix{
         }
         output << "]";
         return output;            
-    }//重载输出，没有重载输入，因为输入比较麻烦，思考合理的输入方式ing
+    }                           //重载输出，没有重载输入，因为输入比较麻烦，思考合理的输入方式ing
    // template<typename...Args>
 
     void input(char fmt, ...){
@@ -204,11 +204,11 @@ class matrix{
     }//[]的重载，类比于数组，此处没有采用泄露警告，参考了c++中数组的越界使用
 
     void operator=(const matrix &b){
-        delete (this->data);//大概不会内存泄漏吧
+        delete (this->data);                                         //大概不会内存泄漏吧
         this->data = b.data;
         this->x = b.x;
-        this->y = b.y;
-    }//注意！此=不是赋值，而是引用
+        this->y = b.y;                                                  //注意！此=不是赋值，而是引用
+    }                                      
 
  
 
