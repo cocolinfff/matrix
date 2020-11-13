@@ -1,7 +1,8 @@
 #include<iostream>
-using namespace std;
-   #define AUTO_PROCESS
 #include "matrix.h"
+#define AUTO_PROCESS
+
+using namespace std;
 
 int main(){
     matrix<double> n(4, 4, 1);
